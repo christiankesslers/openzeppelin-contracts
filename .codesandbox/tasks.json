@@ -1,0 +1,128 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "compile": {
+      "name": "compile",
+      "command": "npm run compile",
+      "runAtStart": false
+    },
+    "coverage": {
+      "name": "coverage",
+      "command": "npm run coverage",
+      "runAtStart": false
+    },
+    "docs": {
+      "name": "docs",
+      "command": "npm run docs",
+      "runAtStart": false
+    },
+    "docs:watch": {
+      "name": "docs:watch",
+      "command": "npm run docs:watch",
+      "runAtStart": false
+    },
+    "prepare-docs": {
+      "name": "prepare-docs",
+      "command": "npm run prepare-docs",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "npm run lint:fix",
+      "runAtStart": false
+    },
+    "lint:js": {
+      "name": "lint:js",
+      "command": "npm run lint:js",
+      "runAtStart": false
+    },
+    "lint:js:fix": {
+      "name": "lint:js:fix",
+      "command": "npm run lint:js:fix",
+      "runAtStart": false
+    },
+    "lint:sol": {
+      "name": "lint:sol",
+      "command": "npm run lint:sol",
+      "runAtStart": false
+    },
+    "lint:sol:fix": {
+      "name": "lint:sol:fix",
+      "command": "npm run lint:sol:fix",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "npm run clean",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "npm run prepare",
+      "runAtStart": false
+    },
+    "prepack": {
+      "name": "prepack",
+      "command": "npm run prepack",
+      "runAtStart": false
+    },
+    "generate": {
+      "name": "generate",
+      "command": "npm run generate",
+      "runAtStart": false
+    },
+    "release": {
+      "name": "release",
+      "command": "npm run release",
+      "runAtStart": false
+    },
+    "version": {
+      "name": "version",
+      "command": "npm run version",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "test:inheritance": {
+      "name": "test:inheritance",
+      "command": "npm run test:inheritance",
+      "runAtStart": false
+    },
+    "test:generation": {
+      "name": "test:generation",
+      "command": "npm run test:generation",
+      "runAtStart": false
+    },
+    "gas-report": {
+      "name": "gas-report",
+      "command": "npm run gas-report",
+      "runAtStart": false
+    },
+    "slither": {
+      "name": "slither",
+      "command": "npm run slither",
+      "runAtStart": false
+    },
+    "hardhat migrate": {
+      "name": "hardhat migrate",
+      "command": "hardhat migrate",
+      "runAtStart": true
+    }
+  }
+}
